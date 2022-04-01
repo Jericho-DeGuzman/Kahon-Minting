@@ -1,0 +1,384 @@
+body{
+  background-color: #04293A;
+}
+
+h3{
+  font-family: "Montserrat Black";
+}
+
+.fluid-container{
+  padding: 3% 15%;
+}
+/* onscrool button */
+.myScrollBtn{
+  position: fixed;
+  text-align: center;
+  background-color: #04293A;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin-left: 90%;
+  margin-top: 40%;
+}
+
+.hide{
+  opacity: 0;
+}
+
+.show{
+  opacity: 1;
+}
+
+.fade{
+ animation: fade 3s;
+}
+
+@keyframes fade{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.onscroll-icon{
+  font-size: 2rem;
+  text-decoration: none;
+  color: #D1D1D1;
+}
+
+.onscroll-icon:hover{
+  color: #fff;
+}
+
+/* title section start */
+#title{
+  color: #fff;
+}
+/* navbar start */
+#nav-content{
+  text-align: center;d
+}
+
+.nav-brand{
+  font-family: "Montserrat black";
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #ECB365;
+  cursor: pointer;
+}
+
+.nav-brand:hover{
+  color: #fff;
+}
+
+.nav-item{
+  font-family: "Fredoka";
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.navbar-link{
+  text-decoration: none;
+  color: #D1D1D1;
+}
+
+.active{
+  font-family: "Montserrat black";
+  Color: #ECB365;
+}
+
+.navbar-link:hover{
+  color: #ECB365;
+}
+/* navbar end */
+/* title content start */
+.title-content{
+  padding-top: 5rem;
+}
+
+.title-greeting, h1{
+  font-family: "Montserrat Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.title-msg{
+  font-style: "Montserrat";
+  font-size: 12px;
+  color: #D8D2CB;
+  line-height: 1.5;
+  width: 350px;
+  text-align: justify;
+}
+
+.mint-btn{
+  background-color: #87A7B3;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  padding: 7px 0 0 0;
+  text-decoration: none;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #87A7B3;
+}
+
+.mint-text, .talk-text{
+  font-family: "Fredoka";
+  color: #fff;
+}
+
+.mint-btn:hover{
+  background-color: #5B7DB1;
+  border-color: #5B7DB1;
+}
+
+.mint-text:hover{
+  color:#fff;
+}
+
+.talk-btn{
+  background-color: none;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  padding: 7px 0 0 0;
+  text-decoration: none;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #87A7B3;
+}
+
+.talk-text:hover{
+  background-color: #fff;
+  border-color: #fff;
+  color: #333;
+}
+/* GIF slide */
+.gif-container{
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+}
+
+img{
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+.myGif{
+   display: none;
+}
+
+@media only screen and (max-width: 768px){
+  img{
+    width: 50%;
+  }
+}
+/* title section end */
+
+/* about section */
+#about{
+  background-color: #fff;
+}
+
+.about-img{
+  position: relative;
+  display: block;
+  max-width: 100%;
+}
+
+.story-title{
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.story{
+  font-family: "Fredoka";
+  font-size: 14px;
+  text-align: justify;
+}
+
+@media only screen and (max-device-width: 768px){
+  .about-img{
+    display: none !important;
+  }
+}
+
+.wallet{
+  text-align: center;
+}
+
+/* BURAHIN MO DIN TO AGAD SELF */
+.nAvailable{
+  font-family: "Montserrat light";
+  font-size: 2rem;
+  padding: 5rem;
+}
+
+/* roadmap section */
+#roadmap{
+  background-color: #04293A;
+  color: #fff;
+}
+
+.roadmap-title{
+  text-align: center;
+}
+
+/* team section */
+#team{
+  background-color: #fff;
+}
+
+.team-title{
+  text-align: center;
+}
+
+.team-inner{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.team-item{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.team-item>h3{
+  font-family: "Montserrat";
+  line-height: 1.5;
+  opacity: 1;
+}
+
+.team-profile{
+  width: 100px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.prev-btn, .next-btn{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: transparent;
+  border-style: none;
+  font-size: 2rem;
+  text-align: center;
+  width: 15%;
+  padding: 0;
+  margin: 0;
+}
+
+.prev-btn{
+  left: 0;
+}
+
+.next-btn{
+  right: 0;
+}
+
+.prev-btn:hover, .next-btn:hover{
+  color: #D8D2CB;
+}
+
+.myTeam{
+  display: none;
+}
+
+
+/* get in touch section */
+
+#contacts{
+  background-color: #04293A;
+  color: #fff;
+  text-align: center;
+  font-family: "Fredoka";
+}
+
+.contact-item{
+  padding-top: 5%;
+
+}
+
+.contact-link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact-link:hover{
+  color: #ECB365;
+}
+
+.footer{
+  font-family: "Montserrat";
+  padding: 3%;
+}
+
+.copyright{
+  float: left;
+}
+
+.appearance{
+  float: right;
+  font-family: "Montserrat Light";
+  text-decoration: none;
+  color: #fff;
+}
+
+.appearance:hover{
+  color: #ECB365;
+}
+
+#myAppearance{
+  display: none;
+  animation: growDown 1s;
+  transform-origin: top;
+}
+
+@keyframes growDown{
+  0%{
+    transform: scaleY(0);
+  }
+  80%{
+    transform: scaleY(1.1);
+  }
+  100%{
+    transform: scaleY(1);
+  }
+}
+
+.appearanceBox{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  padding: 3%;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.appearanceBox:hover{
+  transform: scale(1.1);
+}
+
+.defaultColor{
+  background-color: #04293A;
+}
+
+.secondColor{
+  background-color: #040303;
+}
+
+.thirdColor{
+  background-color: #3A3845;
+}
+
+.activeColor{
+  border: solid 2px #fff;
+}
+
+.bgColor{
+  background-color: #04293A;
+}
